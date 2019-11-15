@@ -1,0 +1,293 @@
+body{
+	/*background: url(images/blue2.png);*/
+    background-color: #b3b3ff;
+    background-size: 100%;
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	color: #181818;
+}
+@font-face
+
+{  font-family: 'BallparkWeiner';
+    src: url('fonts/ballpark.eot');
+    src: url('fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ballpark.woff') format('woff'),
+         url('fonts/ballpark.ttf') format('truetype'),
+         url('fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+     font-style: normal;
+}
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('fonts/dayrom.eot');
+    src: url('fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dayrom.woff') format('woff'),
+         url('fonts/dayrom.ttf') format('truetype'),
+         url('fonts/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#container{
+	width:900px;
+	margin: 0 auto;
+}
+#mytitle{
+	display: inline-block;
+}
+header{
+    /*background: url('line.png') repeat-x bottom;*/
+    box-shadow: 2px 2px 3px 3px powderblue ;
+    margin-right: 10px;
+
+}
+header h1{
+    font-family: 'Ballparkweiner',sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    position: absolute;
+    top: 40px;
+    left: 300px;
+    margin-bottom:25px;
+}
+ header h2{
+    margin-top: 0px;
+    margin-left : 15px;
+ }
+#logo{
+    width: 150px;
+    height: 120px;
+    margin-left: -30px;
+}
+
+#logo, header h1
+{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+nav{
+	display: inline-block;
+	width: 740px;
+	text-align: right;
+    margin-left: 50px;
+    position: sticky;
+    top: 10px;
+    
+}
+ nav ul{
+ 	list-style-type: none;
+
+ }
+ nav li{
+ 	display: inline-block;
+ 	margin-right: 15px;
+ }
+ nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+#banner{
+    background: url('banner1.jpg') no-repeat;
+    height: 200px;
+    position:relative;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    box-shadow: 0px 4px 4px #1c1a19;
+    border-radius: 5px;
+    background-size: 100%;
+    box-shadow: 2px 2px 3px 3px powderblue ;
+}
+#description{
+    margin-right:20px; 
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    background-color: rgb(24,24,24);
+    background-color: rgba(24,24,24,0.8); 
+    color: white;
+    font-size: 0.8em;
+}
+.button
+{
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('images/red_background.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.button img
+{
+    border: 0;
+}
+article, aside
+{
+    display: inline-block;
+    vertical-align:top;
+    text-align: justify;
+}
+article
+{
+    width: 625px;
+    margin-right: 15px;
+    box-shadow: 2px 2px 3px 3px powderblue ;
+}
+#main-row{
+    margin-top: -50px;
+}
+.row{
+    width:185px;
+    float: left;
+    padding: 10px;
+}
+.row h3{
+    padding-left: 5px;
+}
+article h1{
+    font-family: 'Ballparkweiner',sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+
+}
+article p
+{
+    font-size: 0.9em;
+}
+article p img{
+    width: 190px;
+    height: 113px;
+    margin-left: 15px;
+}
+
+aside
+{
+    position: relative;
+    width: 235px;
+    height: 523px;
+    background-color:#b3b3ff;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 0.9em;
+    box-shadow: 2px 2px 3px 3px powderblue ;
+}
+#arrow
+{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+#mypicture
+{
+    text-align: center;
+}
+
+#mypicture img
+{
+    border: 1px solid #181818;
+}
+
+aside img
+{
+    margin-right: 5px;
+}
+footer
+{
+    background:  url('images/top.png') no-repeat top center, /*url('images/line.png') repeat-x top;*/
+    padding-top: 25px;
+    box-shadow: 2px 2px 3px 3px powderblue ;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+#contacts, #my_pictures, #my_friends
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#contacts
+{
+    width: 27%;
+    margin-left: 5px;
+}
+#contacts p{
+    display: inline-block;
+    width:100%;
+    line-height: 30px;
+    margin-right: 10px;
+
+}
+#contacts img{
+    float: left;
+    margin: 0px;
+    
+}
+
+#my_pictures
+{
+
+    width: 35%;
+}
+
+#my_friends
+{
+    width: 31%;
+}
+
+#my_pictures img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#my_friends ul
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    width: 48%;
+    /*list-style-image: url('images/external_link.png');*/
+    padding-left: 2px;
+}
+
+#my_friends a
+{
+    text-decoration: none;
+    color: #760001;
+}
+#copyright{
+    text-align: center;
+}
