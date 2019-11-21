@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>favourite food</title>
+</head>
+<body>
+    <h1>My favourite foods</h1>
+    <p id="demo"></p>
+	<script>
+		var food =["1-Biryani","2-Daal chawal","3-nuggets","4-plao","5-Pizza","6-chines rice","7-russian","8-zinger burger","9-noodles","10-karhi chawal"];
+		var fd, len, text;
+		for (fd  = 0, len = food.length, text = ""; fd < len; fd++){
+			text += food[fd] + "<br>";
+		}
+		document.getElementById('demo').innerHTML = text;
+	</script>
+
+</body>
+</html>
